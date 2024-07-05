@@ -23,11 +23,9 @@ func main() {
 	path = filepath.Dir(path)
 	// 认证
 	auth := authkeystone.AuthSetUp{
-		//AuthEndpoint: "http://192.168.200.10:5000/v3",
-		AuthEndpoint: "http://132.91.181.250:30500/v3",
+		AuthEndpoint: "http://192.168.200.10:5000/v3",
 		UserName:     "admin",
-		//Password:     "297b0c495cf84464",
-		Password:   "e29995bc97aaTi0*",
+		Password:     "000000",
 		DomainName: "Default",
 		TenantName: "admin",
 	}
